@@ -1,62 +1,82 @@
 <!DOCTYPE html>
-<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
-<html lang="en-us">
+<html lang="kr">
 
-<head>
-<meta charset="utf-8">
-<title>Hello...</title>
-<style type="text/css">
-#mainContent {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: xx-large;
-	font-weight: bold;
-	background-color: #E3F0FB;
-	border-radius: 4px;
-	padding: 10px;
-	text-align: center;
-}
-.buttonStyle {
-	border-radius: 4px;
-	border: thin solid #F0E020;
-	padding: 5px;
-	background-color: #F8F094;
-	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-	font-weight: bold;
-	color: #663300;
-	width: 75px;
-}
+	<head>
 
-.buttonStyle:hover {
-	border: thin solid #FFCC00;
-	background-color: #FCF9D6;
-	color: #996633;
-	cursor: pointer;
-}
-.buttonStyle:active {
-	border: thin solid #99CC00;
-	background-color: #F5FFD2;
-	color: #669900;
-	cursor: pointer;
-}
+		<meta charset="utf-8">
+		<title>Hello.</title>
+		<link rel="stylesheet" type="text/css" href="lionstyle.css">
 
-</style>
-</head>
+	</head>
 
-<body>
-<div id="mainContent">
-<p id="helloText">?</p>
-<button id="clickButton" class="buttonStyle">click me</button>
-</div>
-<script> 
-var myButton = document.getElementById("clickButton");
-var myText = document.getElementById("helloText");
+	<body>
+		<nav class="container">
+			
+			<div class="header">
+				
+				<h1>
+					나를 소개 합니다. 
+				</h1>
 
-myButton.addEventListener('click', doSomething, false)
+				<ul class="items">
+					<li><a href="#">Intro</a>
+					<li><a href="#">Portfolio</a>
+					<li><a href="#">Contact</a>
+				</ul>
+			</div>
+			
 
-function doSomething() {
-	myText.textContent = "hello, world!";
-}
-</script>
+		</nav>
 
-</body>
+
+		
+
+
+		<div class="main">
+			<div class="landing">
+				<div class="landingContainer">
+					<h2> 
+						소개 페이지.
+					</h2>
+
+					<p>
+						Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic styles, a paragraph can be just one sentence long. Ultimately, a paragraph is a sentence or group of sentences that support one main idea. In this handout, we will refer to this as the “controlling idea,” because it controls what happens in the rest of the paragraph.
+					</p>
+
+				</div>
+			</div>
+
+			<div class="container">
+				
+				<div class="imgs">
+
+					<div class="img_container">
+					
+						<img src="http://alakhefifi.com/img/background.jpg" alt="이미지1">
+						<p> heyhey </p>
+					</div>
+
+					<div class="img_container">
+						
+						<img src="http://alakhefifi.com/img/background.jpg" alt="이미지2">
+						<p> heyhey </p>
+					</div>
+
+
+					<div class="img_container">
+						
+						<img src="http://alakhefifi.com/img/background.jpg" alt="이미지3">
+						<p> heyhey </p>
+						
+					</div>
+				</div>
+
+			</div>
+
+
+			<div class="foots">
+				<p>발발이</p>
+			</div>
+		</div>
+	</body>
 </html>

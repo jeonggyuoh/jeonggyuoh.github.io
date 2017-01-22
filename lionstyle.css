@@ -1,0 +1,93 @@
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+
+
+
+.header {
+	width: 100%;
+	height: 70px;
+	overflow: hidden;
+	padding: 15px;
+}
+
+.items {
+	float: right;
+	list-style: none;
+}
+
+.items li {
+	float: left;
+}
+.items li a {
+	text-decoration: none;
+	float: left;
+	padding: 5px;
+}
+
+.landing {
+	background-image: url("http://alakhefifi.com/img/background.jpg");
+	height: 600px;
+	width: 100%;
+}
+
+
+.landing h2 {
+	font-size: 40px;
+	padding-top: 150px;
+	padding-bottom: 20px;
+}
+.landing p {
+	font-size :20px;
+	padding-top: 10px;
+}
+
+.landingContainer {
+	color: white;
+	text-align: center;
+	height: 400px;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+
+}
+
+.img_container {
+	float: left;
+	width: 310px;
+	margin-right: 15px;
+	overflow: hidden;
+	text-align: center;
+}
+.img_container:last-child {
+	margin-right: 0px;
+}
+
+.imgs {
+	width: 100%;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	display: block;
+}
+
+.img_container img {
+	width: 100%;	
+	height: auto;
+}
+
+.foots {
+	width: 100%;
+	margin-top: 400px;
+	padding: 50px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'hanna';
+}
+
